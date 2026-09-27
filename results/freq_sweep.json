@@ -1,0 +1,13 @@
+{
+  "experiment": "RoPE frequency sweep on skip3 (content-neutral: query token independent of target s[i-k])",
+  "purpose": "search for a discriminating cell where alpha_L beats the relative/absolute taxonomy (B2a)",
+  "L0": 20, "L_test": 60, "tier": "1L1H", "seed": 0,
+  "sweep": [
+    {"freq_scale": 1.0,  "alpha_L": 1.0, "train": 1.00, "lg": 1.00},
+    {"freq_scale": 0.3,  "alpha_L": 1.0, "train": 1.00, "lg": 1.00},
+    {"freq_scale": 0.1,  "alpha_L": 1.0, "train": 0.94, "lg": 0.93},
+    {"freq_scale": 0.03, "alpha_L": 0.0, "train": 0.88, "lg": 0.88},
+    {"freq_scale": 0.01, "alpha_L": 0.0, "train": 0.23, "lg": 0.18}
+  ],
+  "verdict": "NEGATIVE. No discriminating cell. At scale 0.03 alpha_L=0 but LG=0.88 -> alpha_L FALSE NEGATIVE: the trained softmax head resolves the offset via a kernel the linear-kernel fit deems unrealizable. At scale 0.01 the model cannot learn even in-distribution (train 0.23) so it is excluded by the learnability filter. Conclusion: alpha_L UNDER-predicts low-frequency relative PEs; the relative/absolute taxonomy ('relative -> generalizes bounded offsets') is correct across the resolvable range; the predictor does not beat the taxonomy. This corrects the earlier 'content rescue' label for low-freq RoPE: skip-k is content-neutral, so this is positional under-prediction, not content."
+}

@@ -1,0 +1,131 @@
+{
+  "L0": 20,
+  "L": 60,
+  "alpha": {
+    "learned-abs|prev": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 40
+    },
+    "learned-abs|skip3": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 40
+    },
+    "learned-abs|copy": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 30
+    },
+    "learned-abs|reverse": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 30
+    },
+    "learned-abs|first": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 40
+    },
+    "nope|prev": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 40
+    },
+    "nope|skip3": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 40
+    },
+    "nope|copy": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 30
+    },
+    "nope|reverse": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 30
+    },
+    "nope|first": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 40
+    },
+    "alibi|prev": {
+      "alpha": 0.0,
+      "margin": 0.0,
+      "rows": 40
+    },
+    "alibi|skip3": {
+      "alpha": 0.0,
+      "margin": -0.41933560371398926,
+      "rows": 40
+    },
+    "alibi|copy": {
+      "alpha": 0.03333333333333333,
+      "margin": -1.9710399786631265,
+      "rows": 30
+    },
+    "alibi|reverse": {
+      "alpha": 0.03333333333333333,
+      "margin": -1.9710406064987183,
+      "rows": 30
+    },
+    "alibi|first": {
+      "alpha": 1.0,
+      "margin": 4.398786544799805,
+      "rows": 40
+    },
+    "sinusoidal|prev": {
+      "alpha": 0.45,
+      "margin": -0.4937069654464722,
+      "rows": 40
+    },
+    "sinusoidal|skip3": {
+      "alpha": 0.25,
+      "margin": -3.285689985752106,
+      "rows": 40
+    },
+    "sinusoidal|copy": {
+      "alpha": 0.06666666666666667,
+      "margin": -12.902604802449543,
+      "rows": 30
+    },
+    "sinusoidal|reverse": {
+      "alpha": 0.0,
+      "margin": -22.648819144566854,
+      "rows": 30
+    },
+    "sinusoidal|first": {
+      "alpha": 1.0,
+      "margin": 12.736026668548584,
+      "rows": 40
+    },
+    "rope|prev": {
+      "alpha": 1.0,
+      "margin": 5.2568359375,
+      "rows": 40
+    },
+    "rope|skip3": {
+      "alpha": 1.0,
+      "margin": 4.744144439697266,
+      "rows": 40
+    },
+    "rope|copy": {
+      "alpha": 0.0,
+      "margin": -9.570550918579102,
+      "rows": 30
+    },
+    "rope|reverse": {
+      "alpha": 0.03333333333333333,
+      "margin": -5.992905775705974,
+      "rows": 30
+    },
+    "rope|first": {
+      "alpha": 0.2,
+      "margin": -7.389095520973205,
+      "rows": 40
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "task": "induction (content-driven: target = token after previous occurrence of x_i)",
+  "note": "positional alpha_L = 0 for ALL PEs (target is content-determined, no length-dependent positional rule). Content-aware alpha_L+ flags it content-realizable (=1).",
+  "L0": 20, "L_test": 60, "extrapolation_rows": "[20,60)", "seed": 0,
+  "results": {
+    "2L4H": {
+      "nope":        {"train": 0.763, "lg": 0.341},
+      "rope":        {"train": 0.996, "lg": 0.429},
+      "alibi":       {"train": 0.962, "lg": 0.839},
+      "sinusoidal":  {"train": 0.975, "lg": 0.264},
+      "learned-abs": {"train": 0.989, "lg": 0.270}
+    },
+    "1L1H": {
+      "nope":        {"train": 0.251, "lg": 0.179},
+      "rope":        {"train": 0.275, "lg": 0.199},
+      "alibi":       {"train": 0.251, "lg": 0.183},
+      "sinusoidal":  {"train": 0.264, "lg": 0.156},
+      "learned-abs": {"train": 0.268, "lg": 0.149}
+    }
+  },
+  "reading": "1L1H cannot even learn induction in-distribution (train ~0.25): induction needs the 2-layer prev-token + match circuit. At 2L4H induction is learned (train 0.76-1.0) and generalizes, strongly for ALiBi (0.84). alpha_L (positional) = 0 throughout -> a real one-sidedness failure that alpha_L+ (content channel) recovers qualitatively; residual: content-task LG is PE-modulated, so a binary content flag over-predicts for absolute PEs."
+}

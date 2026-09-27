@@ -1,0 +1,37 @@
+{
+  "prev": {
+    "pinned": 0.016666666666666666,
+    "ce": 0.38333333333333336,
+    "maxmargin": 0.4666666666666667,
+    "exists_oracle": 0.0,
+    "best_probe": 0.35
+  },
+  "skip2": {
+    "pinned": 0.0,
+    "ce": 0.4,
+    "maxmargin": 0.48333333333333334,
+    "exists_oracle": 0.0,
+    "best_probe": 0.36666666666666664
+  },
+  "skip3": {
+    "pinned": 0.0,
+    "ce": 0.26666666666666666,
+    "maxmargin": 0.31666666666666665,
+    "exists_oracle": 0.0,
+    "best_probe": 0.6666666666666666
+  },
+  "copy": {
+    "pinned": 0.0,
+    "ce": 0.0,
+    "maxmargin": 0.0,
+    "exists_oracle": 0.025,
+    "best_probe": 0.95
+  },
+  "reverse": {
+    "pinned": 0.0,
+    "ce": 0.0,
+    "maxmargin": 0.0,
+    "exists_oracle": 0.0,
+    "best_probe": 0.5
+  }
+}

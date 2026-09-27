@@ -1,0 +1,120 @@
+{
+  "L0": 20,
+  "L": 60,
+  "tasks": [
+    "prev",
+    "skip3",
+    "copy",
+    "reverse",
+    "first"
+  ],
+  "rope": {
+    "num=8 (m=16), base=1e4": {
+      "prev": 1.0,
+      "skip3": 1.0,
+      "copy": 0.0,
+      "reverse": 0.0,
+      "first": 0.17
+    },
+    "num=16 (m=32), base=1e4": {
+      "prev": 1.0,
+      "skip3": 1.0,
+      "copy": 0.0,
+      "reverse": 0.03,
+      "first": 0.2
+    },
+    "num=32 (m=64), base=1e4": {
+      "prev": 1.0,
+      "skip3": 1.0,
+      "copy": 0.0,
+      "reverse": 0.0,
+      "first": 0.03
+    },
+    "num=16, base=1e+03": {
+      "prev": 1.0,
+      "skip3": 1.0,
+      "copy": 0.0,
+      "reverse": 0.03,
+      "first": 0.05
+    },
+    "num=16, base=1e+04": {
+      "prev": 1.0,
+      "skip3": 1.0,
+      "copy": 0.0,
+      "reverse": 0.03,
+      "first": 0.2
+    },
+    "num=16, base=1e+05": {
+      "prev": 1.0,
+      "skip3": 1.0,
+      "copy": 0.0,
+      "reverse": 0.03,
+      "first": 0.03
+    },
+    "low-freq scale=0.5": {
+      "prev": 1.0,
+      "skip3": 1.0,
+      "copy": 0.0,
+      "reverse": 0.0,
+      "first": 0.12
+    },
+    "low-freq scale=0.1": {
+      "prev": 0.0,
+      "skip3": 1.0,
+      "copy": 0.0,
+      "reverse": 0.0,
+      "first": 0.35
+    },
+    "low-freq scale=0.03": {
+      "prev": 0.0,
+      "skip3": 0.0,
+      "copy": 0.0,
+      "reverse": 0.03,
+      "first": 1.0
+    }
+  },
+  "sinusoidal": {
+    "num=8 (m=16), base=1e4": {
+      "prev": 0.47,
+      "skip3": 0.5,
+      "copy": 0.0,
+      "reverse": 0.0,
+      "first": 0.93
+    },
+    "num=16 (m=32), base=1e4": {
+      "prev": 0.45,
+      "skip3": 0.25,
+      "copy": 0.07,
+      "reverse": 0.0,
+      "first": 1.0
+    },
+    "num=32 (m=64), base=1e4": {
+      "prev": 0.0,
+      "skip3": 0.0,
+      "copy": 0.0,
+      "reverse": 0.0,
+      "first": 1.0
+    },
+    "num=16, base=1e+03": {
+      "prev": 0.17,
+      "skip3": 0.28,
+      "copy": 0.0,
+      "reverse": 0.0,
+      "first": 1.0
+    },
+    "num=16, base=1e+04": {
+      "prev": 0.45,
+      "skip3": 0.25,
+      "copy": 0.07,
+      "reverse": 0.0,
+      "first": 1.0
+    },
+    "num=16, base=1e+05": {
+      "prev": 0.15,
+      "skip3": 0.12,
+      "copy": 0.0,
+      "reverse": 0.0,
+      "first": 1.0
+    }
+  }
+}

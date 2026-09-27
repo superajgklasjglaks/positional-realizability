@@ -1,0 +1,54 @@
+{
+  "1L1H": {
+    "all": {
+      "n": 250,
+      "spearman": 0.8541688054526704,
+      "pearson": 0.998831598964308,
+      "p": 2.18803612290159e-72
+    },
+    "learnable": {
+      "n": 100,
+      "spearman": NaN,
+      "pearson": NaN,
+      "p": NaN
+    },
+    "n_learnable": 100,
+    "sufficiency_precision": 1.0,
+    "n_high_alpha": 100
+  },
+  "2L4H": {
+    "all": {
+      "n": 250,
+      "spearman": 0.7816540102544707,
+      "pearson": 0.6244701587377192,
+      "p": 9.252685275215457e-53
+    },
+    "learnable": {
+      "n": 150,
+      "spearman": 0.6300164283641699,
+      "pearson": 0.3673804510313555,
+      "p": 5.756208577961261e-18
+    },
+    "n_learnable": 150,
+    "sufficiency_precision": 1.0,
+    "n_high_alpha": 100
+  },
+  "4L4H": {
+    "all": {
+      "n": 250,
+      "spearman": 0.7215637882240459,
+      "pearson": 0.4245685207161211,
+      "p": 1.7574066619557288e-41
+    },
+    "learnable": {
+      "n": 200,
+      "spearman": 0.6747984868781812,
+      "pearson": 0.3362493070492307,
+      "p": 6.262123977974312e-28
+    },
+    "n_learnable": 200,
+    "sufficiency_precision": 1.0,
+    "n_high_alpha": 100
+  },
+  "minutes": 46.5
+}
